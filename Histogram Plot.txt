@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+import numpy as np
+
+data4 = np.random.randn(1000)
+
+plt.hist(data4, bins=30, edgecolor='black')
+plt.title('Histogram')
+plt.xlabel('Values')
+plt.ylabel('Frequency')
+plt.show()
